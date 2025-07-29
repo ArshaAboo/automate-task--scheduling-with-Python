@@ -1,0 +1,21 @@
+{
+    "failure_keywords": ["restricted", "failed", "timeout", "error"],
+    "success_keywords": ["success", "done", "results"],
+    "db_connection": {
+      "driver": "ODBC Driver 17 for SQL Server",
+      "server": "yourservername",
+      "database": "yourdatabasename",
+      "username": "username",
+      "password": "pwd"
+    },
+    "table": "Tasks",
+    "webhook_url": "your_webhook_url",
+    "email_settings": {
+      "smtp_server": "smtp.example.com",
+      "smtp_port": 587,
+      "from": "abc@gmail.com",
+      "to": "def@gmail.com"
+    },
+    "tasks_csv_path": "your_full_path_to_tasks.csv"
+  }
+
