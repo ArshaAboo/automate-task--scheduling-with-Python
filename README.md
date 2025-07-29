@@ -1,4 +1,7 @@
 # automate-task--scheduling-with-Python
+This repository contains a simplified, illustrative version of a project I contributed to during my previous employment, shared with permission and stripped of any proprietary or sensitive content.
+
+
 Project Setup
 Overview
 This application is designed to schedule repetitive tasks and automate logging of task results in an SQL database. It allows you to define multiple tasks (such as running Python scripts or fetching web page results) with custom execution frequencies or at specific times. It automatically determines whether each task succeeds or fails based on configurable keywords, logs the outcome in the database, and sends notifications for failures through email or Microsoft Teams (for high-priority tasks). This ensures continuous monitoring, timely alerts, and historical tracking of task executions.
